@@ -1,0 +1,40 @@
+body {
+    font-family: serif;
+    background-image: url(breathtaking_2-wallpaper-1920x1200.jpg);
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  .cardStyle {
+   
+    margin-top: 50px;
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .img-container{
+    width: 775px;
+    height: 520px;
+  }
+  
+  .img-container img{
+   width: 100%;
+   height: 100%;
+  }
+
+  .radio {
+    margin-top: 40px;
+    display: grid;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (min-width: 769px) {
+    .card {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+  
